@@ -289,3 +289,29 @@ ul{
    }
 }
 // review
+
+#review{
+   margin-top: 200px;
+   background-image: url(../images/review.svg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   object-fit:cover;
+   opacity: 80%;
+   justify-content: center;
+   width: 100%;
+   justify-content: center;
+   flex-direction: column;
+   height: 750px;
+   .img{
+      background-image: url(../images/Rectangle\ 20.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   object-fit:cover;
+   opacity: 10%;
+   justify-content: center;
+   width: 100%;
+   justify-content: center;
+   flex-direction: column;
+   height: 750px;
+   }
+}

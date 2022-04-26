@@ -323,6 +323,7 @@ ul .navigation .but:active {
   cursor: pointer;
   position: absolute;
   right: 240px;
+  opacity: 40%;
   border-radius: 5px;
   top: 355.4%;
   font-size: 15px;
@@ -339,5 +340,44 @@ ul .navigation .but:active {
 .section3 .button:active {
   background-color: #bd7b00;
   border: none;
+}
+
+#review {
+  margin-top: 200px;
+  background-image: url(../images/review.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
+  opacity: 80%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 750px;
+}
+
+#review img {
+  background-image: url(../images/re);
+  background-repeat: no-repeat;
+  background-size: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
+  opacity: 10%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 750px;
 }
 /*# sourceMappingURL=style.css.map */
