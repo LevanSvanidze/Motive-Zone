@@ -1,7 +1,7 @@
 header {
   position: fixed;
   width: 100%;
-  top: 9999999999999999999999999999999999999999999999999999999;
+  top: 9999;
   background-color: #1d3e55;
 }
 
@@ -16,8 +16,8 @@ ul {
   width: 100%;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
   justify-items: center;
   list-style: none;
 }
@@ -58,8 +58,8 @@ ul .navigation .but {
   margin-left: 10%;
   vertical-align: super;
   -webkit-box-align: right;
-      -ms-flex-align: right;
-          align-items: right;
+  -ms-flex-align: right;
+  align-items: right;
   cursor: pointer;
   border-radius: 5px;
   color: white;
@@ -78,16 +78,16 @@ ul .navigation .but:active {
   background-image: url(../images/main.svg);
   background-repeat: no-repeat;
   -o-object-fit: contain;
-     object-fit: contain;
+  object-fit: contain;
   background-image: cover;
   width: 100%;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   height: 750px;
 }
 
@@ -97,7 +97,7 @@ ul .navigation .but:active {
   left: 35%;
   opacity: 60%;
   -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   color: white;
   font-size: 50px;
   font-weight: bolder;
@@ -112,7 +112,7 @@ ul .navigation .but:active {
   left: 40%;
   line-height: 26px;
   -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   opacity: 60%;
   color: white;
   font-weight: bolder;
@@ -163,7 +163,7 @@ ul .navigation .but:active {
 
 .box img {
   -webkit-box-shadow: #FF9C00 8px 9px 6px 5px;
-          box-shadow: #FF9C00 8px 9px 6px 5px;
+  box-shadow: #FF9C00 8px 9px 6px 5px;
   border-radius: 15%;
   margin-bottom: 50px;
 }
@@ -196,7 +196,7 @@ ul .navigation .but:active {
 
 .box:hover {
   -webkit-box-shadow: #525252 0px 5px 10px 6px;
-          box-shadow: #525252 0px 5px 10px 6px;
+  box-shadow: #525252 0px 5px 10px 6px;
   border-radius: 10px;
   -webkit-transition: 0.5s;
   transition: 0.5s;
@@ -302,9 +302,8 @@ ul .navigation .but:active {
 .section3 #email {
   max-width: 360px;
   position: absolute;
-  right: 230px;
+  right: 240px;
   top: 355%;
-  opacity: 50%;
   width: 100%;
   height: 55px;
   display: -webkit-box;
@@ -320,24 +319,27 @@ ul .navigation .but:active {
   flex-direction: row;
 }
 
-.section3 .butt3 {
-  right: 230px;
-  top: 355%;
-  width: 110px;
-  height: 50px;
+.section3 .button {
+  cursor: pointer;
+  position: absolute;
+  right: 240px;
   border-radius: 5px;
-  border: none;
-  color: white;
-  background-color: #FF9C00;
+  top: 355.4%;
   font-size: 15px;
   font-weight: bold;
+  width: 110px;
+  height: 50px;
+  text-align: center;
+  background-color: #FF9C00;
+  border: none;
+  color: whitesmoke;
+  margin-bottom: 30px;
 }
 
-.section3 .butt3:active {
+.section3 .button:active {
   background-color: #bd7b00;
   border: none;
 }
-
 #review {
   margin-top: 200px;
   background-image: url(../images/cover.png);
@@ -358,9 +360,38 @@ ul .navigation .but:active {
 }
 
 #review h4 {
-  line-height: 53px;
+  line-height: 55px;
   font-size: 40px;
   color: white;
   text-align: center;
+}
+
+#review p {
+  text-align: center;
+  font-size: 15px;
+  color: white;
+  line-height: 100px;
+  margin-bottom: 80px;
+}
+
+.box2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  border-radius: 12px;
+}
+
+.box2 img {
+  -webkit-box-shadow: #1B4682 10px 15px 20px 30px;
+          box-shadow: #1B4682 10px 15px 20px 30px;
+}
+
+.box2 img:hover {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  -webkit-box-shadow: #306395 10px 15px 15px 25px;
+          box-shadow: #306395 10px 15px 15px 25px;
 }
 /*# sourceMappingURL=style.css.map */
