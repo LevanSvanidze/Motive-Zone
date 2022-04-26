@@ -351,7 +351,7 @@ header {
    width: 100%;
    justify-content: center;
    flex-direction: column;
-   height: 750px;
+   height: 1150px;
    h4{
       line-height: 55px;
       font-size: 40px;
@@ -373,11 +373,113 @@ header {
    -ms-flex-pack: distribute;
    justify-content: space-around;
    border-radius: 12px;
+   margin-bottom: 150px;
    img{
       box-shadow: #1B4682 10px 15px 20px 30px;
    &:hover{
       transition: 0.5s;
       box-shadow: #306395 10px 15px 15px 25px;
-   }
-   }
+  }
+  }
+}
+
+.texts{
+  h4{
+    display: flex;
+    justify-content: left;
+    color: white;
+    margin-left: 50px;
+    font-size: 20px;
+    position: absolute;
+    left: 2px;
+    top: 510%;
+  }
+  p{
+    color: white;
+    font-size: 15px;
+    margin-left: 50px;
+    margin-top: -20px;
+    position: absolute;
+    left: 2px;
+    top: 518%;
+  }
+  a{
+    position: absolute;
+    top: 528%;
+    left: 50px;
+    color:#FF9C00;
+    font-size: 15px;
+    &:hover{
+      color: purple;
+      -webkit-transition: 0.5s;
+      transition: 0.5s;
+    }
+    }
+}
+.texts-2{
+  h4{
+    display: flex;
+    justify-content: left;
+    color: white;
+    margin-left: 50px;
+    font-size: 20px;
+    position: absolute;
+    top: 510%;
+    left:555px;
+
+  }
+  p{
+    color: white;
+    font-size: 15px;
+    margin-left: 50px;
+    margin-top: -20px;
+    position: absolute;
+    left:555px;
+    top: 518%;
+  }
+  a{
+    position: absolute;
+    top: 528%;
+    left:605px;
+    color:#FF9C00;
+    font-size: 15px;
+    &:hover{
+      color: purple;
+      -webkit-transition: 0.5s;
+      transition: 0.5s;
+    }
+  }
+}
+.texts-3{
+  h4{
+    display: flex;
+    justify-content: left;
+    color: white;
+    margin-left: 50px;
+    font-size: 20px;
+    position: absolute;
+    right: 100px;
+    top: 510%;
+  }
+  p{
+    color: white;
+    font-size: 15px;
+    margin-left: 50px;
+    margin-top: -20px;
+    position: absolute;
+    right: 52px;
+    top: 518%;
+  }
+  a{
+    position: absolute;
+    top: 528%;
+    right: 300px;
+    color:#FF9C00;
+    font-size: 15px;
+    &:hover{
+      color: purple;
+      -webkit-transition: 0.5s;
+      transition: 0.5s;
+    }
+  }
 }

@@ -356,7 +356,7 @@ ul .navigation .but:active {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  height: 750px;
+  height: 1150px;
 }
 
 #review h4 {
@@ -381,6 +381,7 @@ ul .navigation .but:active {
   -ms-flex-pack: distribute;
   justify-content: space-around;
   border-radius: 12px;
+  margin-bottom: 150px;
 }
 
 .box2 img {
@@ -393,5 +394,122 @@ ul .navigation .but:active {
   transition: 0.5s;
   -webkit-box-shadow: #306395 10px 15px 15px 25px;
           box-shadow: #306395 10px 15px 15px 25px;
+}
+
+.texts h4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  color: white;
+  margin-left: 50px;
+  font-size: 20px;
+  position: absolute;
+  left: 2px;
+  top: 510%;
+}
+
+.texts p {
+  color: white;
+  font-size: 15px;
+  margin-left: 50px;
+  margin-top: -20px;
+  position: absolute;
+  left: 2px;
+  top: 518%;
+}
+
+.texts a {
+  position: absolute;
+  top: 528%;
+  left: 50px;
+  color: #FF9C00;
+  font-size: 15px;
+}
+
+.texts a:hover {
+  color: purple;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.texts-2 h4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  color: white;
+  margin-left: 50px;
+  font-size: 20px;
+  position: absolute;
+  top: 510%;
+  left: 555px;
+}
+
+.texts-2 p {
+  color: white;
+  font-size: 15px;
+  margin-left: 50px;
+  margin-top: -20px;
+  position: absolute;
+  left: 555px;
+  top: 518%;
+}
+
+.texts-2 a {
+  position: absolute;
+  top: 528%;
+  left: 605px;
+  color: #FF9C00;
+  font-size: 15px;
+}
+
+.texts-2 a:hover {
+  color: purple;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.texts-3 h4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  color: white;
+  margin-left: 50px;
+  font-size: 20px;
+  position: absolute;
+  right: 100px;
+  top: 510%;
+}
+
+.texts-3 p {
+  color: white;
+  font-size: 15px;
+  margin-left: 50px;
+  margin-top: -20px;
+  position: absolute;
+  right: 52px;
+  top: 518%;
+}
+
+.texts-3 a {
+  position: absolute;
+  top: 528%;
+  right: 300px;
+  color: #FF9C00;
+  font-size: 15px;
+}
+
+.texts-3 a:hover {
+  color: purple;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 /*# sourceMappingURL=style.css.map */
