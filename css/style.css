@@ -1,7 +1,7 @@
 header {
   position: fixed;
   width: 100%;
-  top: 9999;
+  top: 9999999999999999999999999999999999999999999999999999999;
   background-color: #1d3e55;
 }
 
@@ -302,8 +302,9 @@ ul .navigation .but:active {
 .section3 #email {
   max-width: 360px;
   position: absolute;
-  right: 240px;
+  right: 230px;
   top: 355%;
+  opacity: 50%;
   width: 100%;
   height: 55px;
   display: -webkit-box;
@@ -319,36 +320,31 @@ ul .navigation .but:active {
   flex-direction: row;
 }
 
-.section3 .button {
-  cursor: pointer;
-  position: absolute;
-  right: 240px;
-  border-radius: 5px;
-  top: 355.4%;
-  font-size: 15px;
-  font-weight: bold;
+.section3 .butt3 {
+  right: 230px;
+  top: 355%;
   width: 110px;
   height: 50px;
-  text-align: center;
-  background-color: #FF9C00;
+  border-radius: 5px;
   border: none;
-  color: whitesmoke;
-  margin-bottom: 30px;
+  color: white;
+  background-color: #FF9C00;
+  font-size: 15px;
+  font-weight: bold;
 }
 
-.section3 .button:active {
+.section3 .butt3:active {
   background-color: #bd7b00;
   border: none;
 }
 
 #review {
   margin-top: 200px;
-  background-image: url(../images/review.svg);
+  background-image: url(../images/cover.png);
   background-repeat: no-repeat;
   background-size: cover;
   -o-object-fit: cover;
      object-fit: cover;
-  opacity: 80%;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -361,22 +357,10 @@ ul .navigation .but:active {
   height: 750px;
 }
 
-#review img {
-  background-image: url(../images/re);
-  background-repeat: no-repeat;
-  background-size: cover;
-  -o-object-fit: cover;
-     object-fit: cover;
-  opacity: 10%;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  width: 100%;
-  justify-content: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  height: 750px;
+#review h4 {
+  line-height: 53px;
+  font-size: 40px;
+  color: white;
+  text-align: center;
 }
 /*# sourceMappingURL=style.css.map */

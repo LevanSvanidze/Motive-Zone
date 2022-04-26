@@ -1,7 +1,7 @@
 header{
    position: fixed;
    width: 100%;
-   top: 9999;
+   top: 9999999999999999999999999999999999999999999999999999999;
    background-color: #1d3e55;
 }
 .logo-img{
@@ -251,7 +251,7 @@ ul{
    #email{
       max-width: 360px;
       position: absolute;
-      right: 240px;
+      right: 230px;
       top: 355%;
       opacity: 50%;
       width: 100%;
@@ -267,24 +267,20 @@ ul{
       -webkit-box-direction: normal;
       -ms-flex-direction: row;
       flex-direction: row;
-      
    }
-   .button{
-      cursor: pointer;
-      right: 240px;
-      border-radius: 5px;
-      opacity: 100%;
-      top: 355.4%;
-      font-size: 15px;
-      font-weight: bold;
+   .butt3{
+      right: 230px;
+      top: 355%;
       width: 110px;
       height: 50px;
-      text-align: center;
-      background-color: #FF9C00;       
+      border-radius: 5px;
       border: none;
-      color: whitesmoke;
+      color: white;
+      background-color: #FF9C00;
+      font-size: 15px;
+      font-weight: bold;
       &:active{
-         background-color: orangered;
+         background-color: rgb(189, 123, 0);
          border: none;
       }
    }
@@ -293,26 +289,19 @@ ul{
 
 #review{
    margin-top: 200px;
-   background-image: url(../images/review.svg);
+   background-image: url(../images/cover.png);
    background-repeat: no-repeat;
    background-size: cover;
    object-fit:cover;
-   opacity: 80%;
    justify-content: center;
    width: 100%;
    justify-content: center;
    flex-direction: column;
    height: 750px;
-   .img{
-      background-image: url(../images/Rectangle\ 20.png);
-   background-repeat: no-repeat;
-   background-size: cover;
-   object-fit:cover;
-   opacity: 10%;
-   justify-content: center;
-   width: 100%;
-   justify-content: center;
-   flex-direction: column;
-   height: 750px;
+   h4{
+      line-height: 53px;
+      font-size: 40px;
+      color: rgb(255, 255, 255);
+      text-align: center;
    }
 }
