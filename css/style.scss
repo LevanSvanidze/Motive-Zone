@@ -525,5 +525,118 @@ header {
     }
 }
 
-//social media
+//footer
 
+footer{
+  background-color: #011021 !important;
+  width: 100%;
+  height: 506px;
+  .footer-img{
+    background-image: url(../images/footer.png);
+    opacity: 2.5%;
+    width: 100%;
+    height: 100%;
+  }
+  .first-row{
+    .logo{
+      position:absolute;
+      left: 200px;
+      top: 670%;
+    }
+    h2{
+      font-size: 32px;
+      font-weight: bold;
+      color: white;
+      position: absolute;
+      left: 260px;
+      top: 670.5%;
+    }
+    p{
+      position: absolute;
+      left: 200px;
+      top: 680%;
+      font-size: 15px;
+      color: #A9B2BC;
+      width:347px ;
+      height: 47px;
+    }
+    h3{
+      position: absolute;
+      left: 200px;
+      top: 695%;
+      color: white;
+      font-size: 18px;
+      font-weight: bold;
+    }
+    #email {
+      max-width: 360px;
+      position: absolute;
+      top: 702.5%;
+      left: 200px;
+      width: 100%;
+      height: 50px;
+      border-radius: 5px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      margin-bottom: 20px;
+      background-color: #FAF9F7;
+      border: #EDE5D9 1px solid;
+      padding: 0 20px;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+      flex-direction: row;
+    }
+    .button {
+      cursor: pointer;
+      position: absolute;
+      top: 702.5%;
+      left: 450px;
+      border-radius: 5px;
+      font-size: 15px;
+      font-weight: bold;
+      width: 110px;
+      height: 50px;
+      text-align: center;
+      background-color: #FF9C00;
+      border: none;
+      color: whitesmoke;
+      margin-bottom: 30px;
+      &:active {
+        background-color: #bd7b00;
+        border: none;
+      }
+    }
+  }
+  .secondtexts{
+    width: 250px;
+    h3{
+      color: white;
+      font-size: 18px;
+      position: absolute;
+      top: 675%;
+      left: 750px;
+      margin-bottom: 15px;
+    }
+    .n1, .n2, .n3, .n4, .n5{
+      position: absolute;
+      top: 680%;
+      left: 750px;
+      color: #A9B2BC;
+      list-style: none;
+    }
+    .n2{
+      top: 685%;
+    }
+    .n3{
+      top: 690%;
+    }
+    .n4{
+      top: 695%;
+    }
+    .n5{
+      top: 699%;
+    }
+  }
+}

@@ -560,4 +560,131 @@ ul .navigation .but:active {
   color: #072753;
   font-size: 17px;
 }
+
+footer {
+  background-color: #011021 !important;
+  width: 100%;
+  height: 506px;
+}
+
+footer .footer-img {
+  background-image: url(../images/footer.png);
+  opacity: 2.5%;
+  width: 100%;
+  height: 100%;
+}
+
+footer .first-row .logo {
+  position: absolute;
+  left: 200px;
+  top: 670%;
+}
+
+footer .first-row h2 {
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+  position: absolute;
+  left: 260px;
+  top: 670.5%;
+}
+
+footer .first-row p {
+  position: absolute;
+  left: 200px;
+  top: 680%;
+  font-size: 15px;
+  color: #A9B2BC;
+  width: 347px;
+  height: 47px;
+}
+
+footer .first-row h3 {
+  position: absolute;
+  left: 200px;
+  top: 695%;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+footer .first-row #email {
+  max-width: 360px;
+  position: absolute;
+  top: 702.5%;
+  left: 200px;
+  width: 100%;
+  height: 50px;
+  border-radius: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 20px;
+  background-color: #FAF9F7;
+  border: #EDE5D9 1px solid;
+  padding: 0 20px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+footer .first-row .button {
+  cursor: pointer;
+  position: absolute;
+  top: 702.5%;
+  left: 450px;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: bold;
+  width: 110px;
+  height: 50px;
+  text-align: center;
+  background-color: #FF9C00;
+  border: none;
+  color: whitesmoke;
+  margin-bottom: 30px;
+}
+
+footer .first-row .button:active {
+  background-color: #bd7b00;
+  border: none;
+}
+
+footer .secondtexts {
+  width: 250px;
+}
+
+footer .secondtexts h3 {
+  color: white;
+  font-size: 18px;
+  position: absolute;
+  top: 675%;
+  left: 750px;
+  margin-bottom: 15px;
+}
+
+footer .secondtexts .n1, footer .secondtexts .n2, footer .secondtexts .n3, footer .secondtexts .n4, footer .secondtexts .n5 {
+  position: absolute;
+  top: 680%;
+  left: 750px;
+  color: #A9B2BC;
+  list-style: none;
+}
+
+footer .secondtexts .n2 {
+  top: 685%;
+}
+
+footer .secondtexts .n3 {
+  top: 690%;
+}
+
+footer .secondtexts .n4 {
+  top: 695%;
+}
+
+footer .secondtexts .n5 {
+  top: 699%;
+}
 /*# sourceMappingURL=style.css.map */
