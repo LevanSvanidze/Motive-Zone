@@ -323,7 +323,6 @@ ul .navigation .but:active {
   cursor: pointer;
   position: absolute;
   right: 240px;
-  opacity: 40%;
   border-radius: 5px;
   top: 355.4%;
   font-size: 15px;
