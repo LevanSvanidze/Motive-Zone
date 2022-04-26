@@ -253,6 +253,7 @@ ul{
       position: absolute;
       right: 240px;
       top: 355%;
+      opacity: 50%;
       width: 100%;
       height: 55px;
       display: -webkit-box;
@@ -266,12 +267,13 @@ ul{
       -webkit-box-direction: normal;
       -ms-flex-direction: row;
       flex-direction: row;
+      
    }
    .button{
       cursor: pointer;
-      position: absolute;
       right: 240px;
       border-radius: 5px;
+      opacity: 100%;
       top: 355.4%;
       font-size: 15px;
       font-weight: bold;
@@ -281,9 +283,8 @@ ul{
       background-color: #FF9C00;       
       border: none;
       color: whitesmoke;
-      margin-bottom: 30px;
       &:active{
-         background-color: rgb(189, 123, 0);
+         background-color: orangered;
          border: none;
       }
    }
