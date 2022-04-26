@@ -1,0 +1,343 @@
+header {
+  position: fixed;
+  width: 100%;
+  top: 9999;
+  background-color: #1d3e55;
+}
+
+.logo-img {
+  margin: 1.5em;
+}
+
+ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  justify-items: center;
+  list-style: none;
+}
+
+ul h1 {
+  font-size: 32px;
+  font-weight: bolder;
+  margin-top: 30px;
+  vertical-align: sub;
+  text-align: center;
+  color: white;
+}
+
+ul .navigation {
+  width: 100%;
+  height: 17px;
+  text-align: center;
+  margin: 35px;
+}
+
+ul .navigation li {
+  display: inline;
+  padding: 15px;
+  color: white;
+  font-size: 15px;
+}
+
+ul .navigation li:hover {
+  font-size: larger;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  color: #cbcbff;
+}
+
+ul .navigation .but {
+  background-color: #FF9C00;
+  float: flex-end;
+  margin-left: 10%;
+  vertical-align: super;
+  -webkit-box-align: right;
+      -ms-flex-align: right;
+          align-items: right;
+  cursor: pointer;
+  border-radius: 5px;
+  color: white;
+  font-size: 15px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  width: 104px;
+  height: 45px;
+}
+
+ul .navigation .but:active {
+  background-color: #bd7b00;
+  border: none;
+}
+
+#main-section {
+  background-image: url(../images/main.svg);
+  background-repeat: no-repeat;
+  -o-object-fit: contain;
+     object-fit: contain;
+  background-image: cover;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 750px;
+}
+
+#main-section h2 {
+  position: absolute;
+  top: 50%;
+  left: 35%;
+  opacity: 60%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  color: white;
+  font-size: 50px;
+  font-weight: bolder;
+  margin-left: 20px;
+  text-align: left;
+  vertical-align: middle;
+}
+
+#main-section p {
+  position: absolute;
+  top: 70%;
+  left: 40%;
+  line-height: 26px;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  opacity: 60%;
+  color: white;
+  font-weight: bolder;
+  vertical-align: middle;
+}
+
+#main-section img {
+  float: right;
+}
+
+#OurWork {
+  margin-bottom: 100px;
+  margin-top: 200px;
+}
+
+#OurWork h3 {
+  color: #072753;
+  font-size: 45px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+#OurWork p {
+  font-size: 15px;
+  color: #28384E;
+  text-align: center;
+}
+
+.box {
+  margin-bottom: 150px;
+  margin-top: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  margin-bottom: 100px;
+}
+
+.box .web, .box .Design, .box .graphic {
+  width: 365px;
+  height: 280px;
+  background-color: #f7f7f7;
+  border-radius: 10%;
+}
+
+.box img {
+  -webkit-box-shadow: #FF9C00 8px 9px 6px 5px;
+          box-shadow: #FF9C00 8px 9px 6px 5px;
+  border-radius: 15%;
+  margin-bottom: 50px;
+}
+
+.box h4 {
+  font-size: 20px;
+  color: #072753;
+  margin-bottom: 35px;
+}
+
+.box p {
+  font-size: 15px;
+  text-align: center;
+  line-height: 26px;
+  color: #28384E;
+  margin-bottom: 15px;
+}
+
+.box a {
+  margin-left: 40%;
+  color: #1B498A;
+  margin-top: 20px;
+}
+
+.box a:hover {
+  color: purple;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.box:hover {
+  -webkit-box-shadow: #525252 0px 5px 10px 6px;
+          box-shadow: #525252 0px 5px 10px 6px;
+  border-radius: 10px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+#aboutus {
+  display: inline;
+  width: 595px;
+  height: 333px;
+}
+
+#aboutus h3 {
+  margin-left: 80px;
+  font-size: 40px;
+  color: #072753;
+  font-weight: bolder;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-bottom: 25px;
+}
+
+#aboutus p {
+  margin-left: 80px;
+  width: 500px;
+  font-size: 15px;
+  color: #28384E;
+  line-height: 26px;
+}
+
+#aboutus .but2 {
+  margin-left: 80px;
+  background-color: #FF9C00;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  font-size: 15px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  width: 136px;
+  height: 48px;
+  margin-top: 40px;
+}
+
+#aboutus .but2:active {
+  background-color: #bd7b00;
+  border: none;
+}
+
+#aboutus img {
+  margin-top: -250px;
+  margin-bottom: 50px;
+  float: right;
+  width: 700px;
+  height: 400px;
+}
+
+#aboutus img:hover {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  width: 750px;
+  height: 450px;
+}
+
+.section3 {
+  margin-top: 100px;
+}
+
+.section3 img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 250px;
+  width: 630px;
+  height: 490px;
+}
+
+.section3 img:hover {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  width: 750px;
+  height: 510px;
+}
+
+.section3 h3 {
+  position: absolute;
+  right: 100px;
+  top: 310%;
+  font-size: 40px;
+  color: #072753;
+  font-weight: bolder;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-bottom: 25px;
+}
+
+.section3 p {
+  position: absolute;
+  right: 100px;
+  top: 320%;
+  width: 500px;
+  font-size: 15px;
+  color: #28384E;
+  line-height: 26px;
+}
+
+.section3 #email {
+  max-width: 360px;
+  position: absolute;
+  right: 240px;
+  top: 355%;
+  width: 100%;
+  height: 55px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 20px;
+  background-color: #FAF9F7;
+  border: #EDE5D9 1px solid;
+  padding: 0 20px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.section3 .button {
+  cursor: pointer;
+  position: absolute;
+  right: 240px;
+  border-radius: 5px;
+  top: 355.4%;
+  font-size: 15px;
+  font-weight: bold;
+  width: 110px;
+  height: 50px;
+  text-align: center;
+  background-color: #FF9C00;
+  border: none;
+  color: whitesmoke;
+  margin-bottom: 30px;
+}
+
+.section3 .button:active {
+  background-color: #bd7b00;
+  border: none;
+}
+/*# sourceMappingURL=style.css.map */
