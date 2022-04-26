@@ -356,7 +356,7 @@ ul .navigation .but:active {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  height: 1150px;
+  height: 1050px;
 }
 
 #review h4 {
@@ -511,5 +511,52 @@ ul .navigation .but:active {
   color: purple;
   -webkit-transition: 0.5s;
   transition: 0.5s;
+}
+
+.information {
+  margin-top: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.information .unimportant {
+  display: inline-block;
+  margin-right: auto;
+  margin-left: 250px;
+  opacity: 100%;
+  margin-top: 20px;
+}
+
+.information .dot {
+  display: inline-block;
+  position: absolute;
+  margin-left: 190px;
+  margin-right: auto;
+}
+
+.information h3 {
+  position: absolute;
+  right: 520px;
+  font-size: 20px;
+  color: #072753;
+}
+
+.information h4 {
+  position: absolute;
+  top: 570%;
+  right: 430px;
+  color: #072753;
+  font-size: 15px;
+}
+
+.information p {
+  position: absolute;
+  top: 580%;
+  font-family: 'Times New Roman', Times, serif;
+  width: 635px;
+  right: 2px;
+  color: #072753;
+  font-size: 17px;
 }
 /*# sourceMappingURL=style.css.map */
