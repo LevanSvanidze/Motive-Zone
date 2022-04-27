@@ -655,6 +655,12 @@ footer .secondtexts {
   width: 250px;
 }
 
+footer .secondtexts li:hover {
+  color: #FF9C00;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
 footer .secondtexts h3 {
   color: white;
   font-size: 18px;
@@ -685,6 +691,92 @@ footer .secondtexts .n4 {
 }
 
 footer .secondtexts .n5 {
-  top: 699%;
+  top: 700%;
+}
+
+footer .thirdtexts {
+  width: 250px;
+}
+
+footer .thirdtexts li:hover {
+  color: #FF9C00;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+footer .thirdtexts h3 {
+  color: white;
+  font-size: 18px;
+  position: absolute;
+  top: 675%;
+  right: 450px;
+  margin-bottom: 15px;
+}
+
+footer .thirdtexts .n1, footer .thirdtexts .n2, footer .thirdtexts .n3, footer .thirdtexts .n4, footer .thirdtexts .n5 {
+  position: absolute;
+  top: 680%;
+  right: 450px;
+  color: #A9B2BC;
+  list-style: none;
+}
+
+footer .thirdtexts .n2 {
+  top: 685%;
+}
+
+footer .thirdtexts .n3 {
+  top: 690%;
+}
+
+footer .thirdtexts .n4 {
+  top: 695%;
+}
+
+footer .thirdtexts .n5 {
+  top: 700%;
+}
+
+footer .forthtexts {
+  width: 250px;
+}
+
+footer .forthtexts li:hover {
+  color: #FF9C00;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+footer h3 {
+  color: white;
+  font-size: 18px;
+  position: absolute;
+  top: 675%;
+  right: 100px;
+  margin-bottom: 15px;
+}
+
+footer .n1, footer .n2, footer .n3, footer .n4, footer .n5 {
+  position: absolute;
+  top: 680%;
+  right: 100px;
+  color: #A9B2BC;
+  list-style: none;
+}
+
+footer .n2 {
+  top: 685%;
+}
+
+footer .n3 {
+  top: 690%;
+}
+
+footer .n4 {
+  top: 695%;
+}
+
+footer .n5 {
+  top: 700%;
 }
 /*# sourceMappingURL=style.css.map */

@@ -1,3 +1,4 @@
+
 header {
    position: fixed;
    width: 100%;
@@ -611,6 +612,11 @@ footer{
   }
   .secondtexts{
     width: 250px;
+    li:hover{
+      color: #FF9C00;
+      -webkit-transition: 0.5s;
+      transition: 0.5s;
+    }
     h3{
       color: white;
       font-size: 18px;
@@ -636,7 +642,77 @@ footer{
       top: 695%;
     }
     .n5{
-      top: 699%;
+      top: 700%;
     }
+  }
+  .thirdtexts{
+    width: 250px;
+    li:hover{
+      color: #FF9C00;
+      -webkit-transition: 0.5s;
+      transition: 0.5s;
+    }
+    h3{
+      color: white;
+      font-size: 18px;
+      position: absolute;
+      top: 675%;
+      right: 450px;
+      margin-bottom: 15px;
+    }
+    .n1, .n2, .n3, .n4, .n5{
+      position: absolute;
+      top: 680%;
+      right: 450px;
+      color: #A9B2BC;
+      list-style: none;
+    }
+    .n2{
+      top: 685%;
+    }
+    .n3{
+      top: 690%;
+    }
+    .n4{
+      top: 695%;
+    }
+    .n5{
+      top: 700%;
+    }
+  }
+  .forthtexts{
+    width: 250px;
+    li:hover{
+      color: #FF9C00;
+      -webkit-transition: 0.5s;
+      transition: 0.5s;
+    }
+  }
+  h3{
+    color: white;
+    font-size: 18px;
+    position: absolute;
+    top: 675%;
+    right: 100px;
+    margin-bottom: 15px;
+  }
+  .n1, .n2, .n3, .n4, .n5{
+    position: absolute;
+    top: 680%;
+    right: 100px;
+    color: #A9B2BC;
+    list-style: none;
+  }
+  .n2{
+    top: 685%;
+  }
+  .n3{
+    top: 690%;
+  }
+  .n4{
+    top: 695%;
+  }
+  .n5{
+    top: 700%;
   }
 }
